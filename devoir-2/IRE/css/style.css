@@ -1,0 +1,44 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background: url("../images/bkgd_page.jpg") no-repeat top center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 5px 15px;
+    border: 1px dashed white;
+}
+
+ul li:hover {
+    background-color: white;
+}
+
+ul li a {
+    color: white;
+}
+
+ul li a:hover {
+    color: green;
+}
