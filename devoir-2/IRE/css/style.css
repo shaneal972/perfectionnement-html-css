@@ -34,7 +34,7 @@ ul li {
 ul li a {
     color: white;
     display: block;
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 
 ul li:last-of-type a {
