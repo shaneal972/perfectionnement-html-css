@@ -27,18 +27,21 @@ ul {
 }
 
 ul li {
-    padding: 5px 15px;
+    /* padding: 5px 15px; */
     border: 1px dashed white;
-}
-
-ul li:hover {
-    background-color: white;
 }
 
 ul li a {
     color: white;
+    display: block;
+    padding: 0 20px;
 }
 
-ul li a:hover {
+ul li:last-of-type a {
+    border-right: none;
+}
+
+ul li:hover a {
+    background: #FFF;
     color: green;
 }
