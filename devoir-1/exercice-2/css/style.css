@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 990px;
+    margin: 0 auto;
+}
+
+header,
+section,
+footer {
+    border: 1px solid black;
+}
+
+header {
+    background: rgb(242, 113, 188);
+}
+
+header, footer {
+    height: 100px;
+}
+
+.gauche{
+    float: left;
+    width: 630px;
+    height: 470px;
+    background: rgb(109, 109, 109);
+}
+
+.droite{
+    float: right;
+    width: 300px;
+    height: 400px;
+    background: rgb(188, 187, 187);
+}
+
+p {
+    text-align: center;
+}
+
+footer{
+    background: #FF6600;
+}
+
+.clear{
+    clear: both;
+}
