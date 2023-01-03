@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    font-family: 'Times New Roman', Times, serif
 }
 
 body {
@@ -20,28 +21,247 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 120px;
 }
 
 ul {
     display: flex;
 }
 
-ul li {
-    /* padding: 5px 15px; */
-    border: 1px dashed white;
-}
-
 ul li a {
     color: white;
     display: block;
     padding: 5px 20px;
-}
-
-ul li:last-of-type a {
-    border-right: none;
+    border: 1px dashed white;
 }
 
 ul li:hover a {
     background: #FFF;
     color: green;
+}
+
+/* Jumbotron */
+.jumbotron {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.jumbotron h1 + p {
+    font-size: 1.8rem;
+    margin: 0;
+} 
+
+.jumbotron p + p {
+    font-size: 0.7rem;
+    margin: 0;
+} 
+
+/* Main */
+
+main {
+    background: #f6f6f6;
+    margin-top: 50px;
+    /* padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px; */
+    padding: 30px 15px 0 15px
+}
+
+.haut {
+    display: flex;
+}
+
+.news {
+    padding-right: 20px;
+    /* display: flex; */
+}
+
+.news article {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+
+.news article img {
+    height: 220px;
+    padding-right: 15px;
+}
+
+.news article h2 {
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+.news article p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.news article p span {
+    color: #38b4b4;
+}
+
+.news article p em {
+    color: #aaa;
+}
+
+.rapport {
+    border-left: 3px dashed #cbcbcb;
+}
+
+.rapport img {
+    height: 167px;
+}
+
+.rapport p {
+    margin: 0;
+}
+
+.rapport figcaption {
+    text-align: center;
+}
+
+.rapport figcaption a {
+    color: #a22755;
+}
+
+.rapport figcaption a:hover {
+    color: #ccc;
+}
+
+/* section.book */
+.book {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.saut {
+    margin: 0;
+    position: relative;
+}
+
+.saut figcaption {
+    display: none;
+    position: absolute;
+    top: 167px;
+    left: 93px;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.saut figcaption p {
+    margin: 0;
+}
+
+.saut figcaption a {
+    display: block;
+    background: #0c7f06;
+    width: 150px;
+    padding: 10px 0;
+    margin: 0 auto;
+    color: white;
+}
+
+.saut figcaption a:hover {
+    color: #ccc;
+}
+
+.saut:hover figcaption{
+    display: block;
+}
+
+.book_haut, .book_bas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book_haut {
+    border-bottom: 3px solid green;
+}
+
+.figure_haut {
+    padding: 16px 40px;
+    border-right: 3px solid green;
+    margin: 0;
+}
+
+.book_haut p, .book_bas p {
+    margin: 0;
+}
+
+.book_haut figcaption, .book_bas figcaption {
+    text-align: center;
+}
+
+.four_book {
+    height: 460px;
+    width: 480px;
+    border: 3px solid green;
+}
+
+.four_book a {
+    color: #a22755;
+}
+
+.four_book a:hover {
+    color: #ccc;
+}
+
+.figure-no-margin {
+    padding: 16px 40px;
+    border-right: 3px solid green;
+    margin: 0;
+}
+
+/* Formulaire */
+.contact {
+    border: 3px solid #0c7f06;
+    background: #ddeae4;
+    padding: 40px 0;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+input[name=nom] {
+    width: 96%;
+}
+
+input[name=prenom], input[name=email] {
+    width: 227px;
+}
+
+textarea {
+    width: 99%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background: #0c7f06;
+    color: white;
+    height: 40px;
 }
